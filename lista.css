@@ -1,9 +1,26 @@
+h1 {
+  text-align: center;
+
+}
+
+header {
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin: 0 5px 0 5px;
+    font-size: 18px
+}
+
 img {
-    height: 380px;
+    
+    height: 290px;
+    width: 350px ;
+    max-width: 100%;
+    height: auto;
+    display: block; /* Evita espaços extras ao redor da imagem */
 }
 
 .html {
-    width: 50%;
+    width: 30%;
     font-size: 14px;
     padding: 10px 0 0 5px;
     background-color: rgba(212, 241, 241, 0.692);
@@ -19,3 +36,23 @@ img {
 div {
     
 }
+
+.custom-button {
+    background-color: #09c3f1; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remover bordas */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Centralizar texto */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block; /* Alinhamento */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem */
+    cursor: pointer; /* Cursor de mãozinha */
+    border-radius: 8px; /* Cantos arredondados */
+    transition: background-color 0.5s; /* Animação suave */
+    flex: 0 1 auto; /* Torna os itens flexíveis de acordo com o tamanho do conteúdo */
+  }
+
+  .custom-button:hover {
+    background-color: #2059c2; /* Cor ao passar o mouse */
+  }
