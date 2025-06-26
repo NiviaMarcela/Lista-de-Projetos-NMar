@@ -8,66 +8,82 @@
 </head>
 <body>
     <header>
-        
-        <h1>Meu Progresso em Let's Code</h1>
+    <div class="marca-dagua"></div>
+
+    <div class="container" img src="C:\Users\nivhm\OneDrive\Documentos\Lets Code\Lista de Projetos\Lista-de-Projetos-NMar\1613929652216.jpg">
+    <h1> Ola, Seja Bem Vindo!</h1>
+    <p>Sou Nivia Marcela, maranhense, formada em ciências contábeis e estou tentando me aventurar nessa área de full stack e agregar mais em minha área que é a contabilidade. Clicando abaixo você terá acesso a minha evolução. Espero que goste, e o influencie a entrar nesse ramo também. </p>
+    <h2>Clique no botão abaixo e acesse os meus projetos</h2>
+     <button onclick="acessar()" class="custom-button"><b>Acessar</b></button>
+    </div>
     </header>
+
+    
     <main>
     
         <div> 
+        <div id="modalcadastro" class="modal"> 
+        <div class="conteudo"> 
 
-            <h2><a>Projetos HTML</a></h2>
 
-            <section id="projetoHtml">
-                
+            
+
+    <section id="projetosHtml">
+
+    <h2 id="h2"><a>Projetos HTML</a></h2>  
                               
-                <div class="html"><h3>Desafio 01 - Apresentação Pessoal</h3>   
+                <div class="card"><h3>Desafio 01 - Apresentação Pessoal</h3>   
                 <img src="Captura de tela 2025-04-03 184526.png" alt="Apresentação Pessoal">
                 <a href="https://niviamarcela.github.io/Projetos/Perfil%20de%20Apresenta%C3%A7%C3%A3o/index.html" target="_blank" class="custom-button"><b>Ver Projeto</b></a>
                 </div>
                             
-                <div class="html"><h3>Desafio 02 - Cardápio</h3>
+                <div class="card"><h3>Desafio 02 - Cardápio</h3>
                 <img src="Captura de tela 2025 cardapio.png" alt="Cardápio">
                 <a href="https://niviamarcela.github.io/Projetos/Card%C3%A1pio/index.html" target="_blank" class="custom-button"><b>Ver Projeto</b></a>
                 </div>
 
-                <div class="html"><h3>Desafio 03 - Filmes Favoritos</h3>
+                <div class="card"><h3>Desafio 03 - Filmes Favoritos</h3>
                     <img src="Captura de tela filmes.jpeg" alt="Filmes Favoritos">
                     <a href="https://niviamarcela.github.io/Projetos/Meus%20Filmes/index.html" target="_blank" class="custom-button"><b>Ver Projeto</b></a>
                 </div>
 
-                <div class="html"><h3>Desafio 04 - Formulário</h3>
+                <div class="card"><h3>Desafio 04 - Formulário</h3>
                     <img src="Captura de tela_formulario.jpeg" alt="Formulario">
                     <a href="https://niviamarcela.github.io/Projetos/formulario/index.html" target="_blank" class="custom-button"><b>Ver Projeto</b></a>
                 </div>
              
-            </section>
-        </div>
-   
-        
-        <div> 
-            <h2><a>Projetos HTML+CSS</a></h2>
             
-            <section>
-                <div class="html"><h3>Desafio 05 - Perfil Profissional</h3>
+    <section id="projetoshtmlcss">
+    <h2 id="h2"><a>Projetos HTML+CSS</a></h2>
+
+                <div class="card"><h3>Desafio 05 - Perfil Profissional</h3>
                     <img src="Captura de tela_card.jpeg" alt="Filmes Favoritos">
                     <a href="https://niviamarcela.github.io/Projetos/Card de Perfil Profissional/index.html"  target="_blank" class="custom-button"><b>Ver Projeto</b></a>
                 </div>  
 
-                <div class="html"><h3>Desafio 06 - Regiões do Brasil</h3>
+                <div class="card"><h3>Desafio 06 - Regiões do Brasil</h3>
                     <img src="Captura de tela_Regiões.jpeg" alt="Regiões do Brasil">
                     <a href="https://niviamarcela.github.io/Projetos/Regiões Brasileiras/index.html" target="_blank" class="custom-button"><b>Ver Projeto</b></a>
                 </div> 
 
                 
-                <div class="html"><h3>Desafio 07 - Loja de Roupas</h3>
+                <div class="card"><h3>Desafio 07 - Loja de Roupas</h3>
                     <img src="Captura de tela_loja.jpeg" alt="Loja de Roupas">
                     <a href="https://niviamarcela.github.io/Projetos/Loja de Roupas/index.html" target="_blank" class="custom-button"><b>Ver Projeto</b></a>
                 </div> 
+
+                <button onclick="fechar()" class="custom-button">Fechar</button>
+
                 
              </section>
         </div>
+
+        </div>
+    </div>
+
     </main>
-        <footer> 2025 &copy Produzido por: NMar</footer>
-    
+        
+ <script src="script.js"></script>     
 </body>
+<footer> 2025 &copy Produzido por: NMar</footer>
 </html>
