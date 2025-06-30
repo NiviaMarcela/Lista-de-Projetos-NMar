@@ -18,7 +18,8 @@ p{
 header {
     border-bottom: 2px solid black;
     padding: 60px;
-    
+    align-items: center;
+    justify-items: center;
     font-size: 18px
 }
 
@@ -46,7 +47,8 @@ img {
     text-decoration: none; /* Remover sublinhado */
     padding-top: 10px;
     font-size: 16px; /* Tamanho da fonte */
-  
+    align-items: center;
+    justify-content: center;
     cursor: pointer; /* Cursor de mãozinha */
     border-radius: 8px; /* Cantos arredondados */
     transition: background-color 0.5s; /* Animação suave */
@@ -81,7 +83,7 @@ footer {
  
 
 .modal {
-  display: flex;
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -110,6 +112,9 @@ footer {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: rgba(250, 250, 228, 0.226);
     padding: 10px;
     border-radius: 2px;
