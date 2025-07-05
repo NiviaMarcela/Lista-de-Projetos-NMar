@@ -6,6 +6,24 @@
     <title>Lista de Projetos NMar</title>
     <link rel="stylesheet" href="lista.css">
 </head>
+
+<script>
+window.onload = function() {
+  if (window.location.hash === "#modalcadastro") {
+    // Supondo que sua função para abrir o modal se chama acessar()
+    if (typeof acessar === "function") {
+      acessar();
+    } else {
+      // Alternativamente, exibe o modal manualmente
+      var modal = document.getElementById("modalcadastro");
+      if (modal) {
+        modal.style.display = "block";
+      }
+    }
+  }
+};
+</script>
+
 <body>
     <header>
     <div class="marca-dagua"></div>
