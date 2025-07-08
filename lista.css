@@ -11,6 +11,7 @@ h3 {
 p {
   font-size: 25px;
   margin-top: 5px; /* diminui o espaço acima do p */
+  margin-left: 20px;
 }
 
 #clic{
